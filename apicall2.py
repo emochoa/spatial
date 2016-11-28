@@ -66,7 +66,7 @@ print("\nfips created; len(fips) =", len(fips))
 fipsout = open("fips2.txt", 'w')
 
 for item in fips:
-    fipsout.write(item)
+    fipsout.write(str(item))
     fipsout.write('\n')
 
 fipsout.close()
